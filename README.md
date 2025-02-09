@@ -102,8 +102,8 @@ This shows **two valid solutions** for a **4 × 4 board**.
 
 ### 📥 1. Clone the Repository
 
-`git clone https://github.com/your-repo/n-queens-solver.git`  
-`cd n-queens-solver`
+`git clone https://github.com/your-repo/N-Queens-Solver.git`  
+`cd N-Queens-Solver`
 
 ### 🏗 2. Build the Program
 
@@ -126,7 +126,7 @@ This will create an **executable** named `nqueens`.
 📂 File Structure
 -----------------
 
-- 📂 n-queens-solver
+- 📂 N-Queens-Solver
 - ├── 📄 Makefile           # Automates compilation
 - ├── 📄 nqueens.cpp        # Main program logic
 - ├── 📄 nqueens.o          # Compiled object file
