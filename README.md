@@ -50,12 +50,8 @@ Each line contains a **single integer N**, representing the **size of the board*
 
 📌 **Example Input (`simple-input.txt`):**
 
-plaintext
-
-CopyEdit
-
-`4
-8`
+`4`  
+`8`  
 
 This means the program will solve **4-Queens** and **8-Queens** problems.
 
@@ -71,19 +67,15 @@ Each solution is printed as a **board configuration**, with:
 
 📌 **Example Output (`simple-output.txt`) for N = 4:**
 
-plaintext
+`. Q . .`  
+`. . . Q`  
+`Q . . .`  
+`. . Q .`  
 
-CopyEdit
-
-`. Q . .
-. . . Q
-Q . . .
-. . Q .
-
-. . Q .
-Q . . .
-. . . Q
-. Q . .`
+`. . Q .`  
+`Q . . .`  
+`. . . Q`  
+`. Q . .`  
 
 This shows **two valid solutions** for a **4 × 4 board**.
 
@@ -110,28 +102,16 @@ This shows **two valid solutions** for a **4 × 4 board**.
 
 ### 📥 1. Clone the Repository
 
-sh
-
-CopyEdit
-
-`git clone https://github.com/your-repo/n-queens-solver.git
-cd n-queens-solver`
+`git clone https://github.com/your-repo/n-queens-solver.git`  
+`cd n-queens-solver`
 
 ### 🏗 2. Build the Program
-
-sh
-
-CopyEdit
 
 `make`
 
 This will create an **executable** named `nqueens`.
 
 ### ▶️ 3. Run the Program
-
-sh
-
-CopyEdit
 
 `./nqueens simple-input.txt simple-output.txt`
 
@@ -146,17 +126,13 @@ CopyEdit
 📂 File Structure
 -----------------
 
-plaintext
-
-CopyEdit
-
-`📂 n-queens-solver
-├── 📄 Makefile           # Automates compilation
-├── 📄 nqueens.cpp        # Main program logic
-├── 📄 nqueens.o          # Compiled object file
-├── 📄 simple-input.txt   # Sample input queries
-├── 📄 simple-output.txt  # Generated output
-├── 📄 README.md          # This file`
+- 📂 n-queens-solver
+- ├── 📄 Makefile           # Automates compilation
+- ├── 📄 nqueens.cpp        # Main program logic
+- ├── 📄 nqueens.o          # Compiled object file
+- ├── 📄 simple-input.txt   # Sample input queries
+- ├── 📄 simple-output.txt  # Generated output
+- ├── 📄 README.md          # This file`
 
 * * * * *
 
@@ -177,17 +153,6 @@ CopyEdit
 ♔ **Earliest known solution:** Proposed by Carl Friedrich Gauss in the 19th century\
 ♔ **Total solutions for N = 8:** **92**\
 ♔ **First AI approach:** Used constraint satisfaction techniques
-
-* * * * *
-
-🚀 Releases & Demo
-------------------
-
-📽 **Watch the program in action!** 👉 **[Check out the latest release](https://github.com/your-repo/releases)**
-
-💡 **To include `.mov` demo in README:**\
-1️⃣ Upload your `.mov` file as part of a **GitHub Release**\
-2️⃣ Add a **link to the Release Page** in this section
 
 * * * * *
 
